@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Responsive Bootstrap 4 Admin &amp; Dashboard Template">
+    <meta name="author" content="Bootlab">
+
+    <title>Image</title>
+
+    <link href="../static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../static/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="../static/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../static/assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="../static/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="../static/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="../static/assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../static/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
+
+    <link rel="canonical" href="https://appstack.bootlab.io/dashboard-analytics.html" />
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Choose your prefered color scheme -->
+    <link href="../static/assets/css/light.css" rel="stylesheet">
+    <link href="../static/assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <!-- <link href="css/dark.css" rel="stylesheet"> -->
+    <style>
+        #preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 9999;
+            overflow: hidden;
+            background: #fff;
+        }
+
+        #preloader:before {
+            content: "";
+            position: fixed;
+            top: calc(50% - 30px);
+            left: calc(50% - 30px);
+            border: 6px solid #1977cc;
+            border-top-color: #d1e6f9;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            -webkit-animation: animate-preloader 1s linear infinite;
+            animation: animate-preloader 1s linear infinite;
+        }
+
+        @-webkit-keyframes animate-preloader {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes animate-preloader {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+
+</head>
+<!--
+  HOW TO USE: 
+  data-theme: default (default), dark, light
+  data-layout: fluid (default), boxed
+  data-sidebar-position: left (default), right
+  data-sidebar-behavior: sticky (default), fixed, compact
+-->
+
+<body data-theme="colored" data-layout="fluid" data-sidebar-position="left" data-sidebar-behavior="sticky">
+    <section id="dashboard">
+        <div class="wrapper">
+            <nav id="sidebar" class="sidebar">
+                <div class="sidebar-content js-simplebar">
+                    
+                    <ul class="sidebar-nav">
+                        <li class="sidebar-header align-middle">
+                            <label>Logo</label>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link">
+                                <i class="align-middle icofont-user"></i> <span class="align-middle">Students</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item active">
+                            <a href="#" class="sidebar-link collapsed">
+                                <i class="align-middle icofont-book"></i><span>Lesson Plan</span>
+                            </a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link collapsed">
+                                <i class="align-middle icofont-options"></i> <span class="align-middle">Settings</span>
+                            </a>
+                        </li>
+                        </ul>
+                </div>
+            </nav>
+            <div class="main">
+                <main class="content">
+                    <div class="container-fluid p-0">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <label class="card-title" style="font-size:  40px;"><a class="icofont icofont-caret-left" style="text-decoration: none;"></a>Videos</label>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="form-row">
+                                            <div class="col-md-12 form-group">
+                                                <input type="url" name="url" placeholder="Insert URL here" class="form-control" style="background-color:gainsboro;border: none;">
+                                            </div>
+                                        </div>
+                                        <center><label>(or)</label></center>
+                                        <div class="form-row">
+                                            <div class="col-md-12 form-group">
+                                                <label class="btn btn-default" style="background-color: gainsboro; height: 200px; width: 200px; padding-top: 7%;">
+                                                    <b>Upload</b><input type="file" hidden>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+    <script src="../static/assets/js/app.js"></script>
+</body>
+
+</html>
