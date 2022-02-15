@@ -74,17 +74,16 @@
             }
         }
     </style>
-    <script id="script">
-        var s = document.createElement("script")
-        s.src = "https://notix.io/ent/current/enot.min.js"
-        s.onload = function (sdk) {
-            sdk.startInstall({
-                appId: "1004a54ae620b7df1f04ebe8586c422",
-                loadSettings: true
-            })
-        }
-        document.head.append(s)
-    </script>
+<!-- PushAlert -->
+<script type="text/javascript">
+        (function(d, t) {
+                var g = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+                g.src = "https://cdn.pushalert.co/integrate_ee051648fd806f2341cdac19de5268dc.js";
+                s.parentNode.insertBefore(g, s);
+        }(document, "script"));
+</script>
+<!-- End PushAlert -->
 </head>
 <!--
   HOW TO USE: 
